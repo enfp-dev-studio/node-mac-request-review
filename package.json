@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/ENFP-Dev-Studio/node-mac-request-review"
   },
   "author": "ENFP-Dev-Studio",
   "license": "ISC",
