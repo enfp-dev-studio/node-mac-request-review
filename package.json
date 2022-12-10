@@ -8,8 +8,8 @@
   "scripts": {
     "build": "node-gyp rebuild",
     "clean": "node-gyp clean",
-    "lint": "clang-format --dry-run -Werror request_review.mm && prettier --check index.js",
-    "format": "clang-format -i request_review.mm && prettier --write index.js",
+    "lint": "clang-format --dry-run -Werror ./src/request_review.mm && prettier --check index.js",
+    "format": "clang-format -i ./src/request_review.mm && prettier --write index.js",
     "test": "./node_modules/.bin/mocha --reporter spec",
     "prepare": "husky install"
   },
