@@ -1,6 +1,5 @@
-#include <napi.h>
-
 #import <Storekit/Storekit.h>
+#include <napi.h>
 
 void RequestReview(const Napi::CallbackInfo &info) {
   // Napi::Env env = info.Env();
@@ -8,10 +7,6 @@ void RequestReview(const Napi::CallbackInfo &info) {
     [SKStoreReviewController requestReview];
   }
 }
-
-// Napi::Object InitAll(Napi::Env env, Napi::Object exports) {
-//   return exports;
-// }
 
 Napi::Object Init(Napi::Env env, Napi::Object exports) {
   exports.Set(Napi::String::New(env, "requestReview"),
