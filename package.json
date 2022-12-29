@@ -1,6 +1,6 @@
 {
   "name": "node-mac-request-review",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Native module to request review on App Store using Store Kit",
   "main": "index.js",
   "types": "index.d.ts",
