@@ -1,14 +1,13 @@
 {
   "name": "node-mac-request-review",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A Native module to request review on App Store using Store Kit",
   "main": "index.js",
   "types": "index.d.ts",
   "gypfile": true,
   "scripts": {
     "install": "node-gyp-build",
-    "build": "node-gyp rebuild",
-    "clean": "node-gyp clean",
+    "prebuild": "prebuildify --napi",
     "lint": "clang-format --dry-run -Werror ./src/request_review.mm && prettier --check index.js",
     "format": "clang-format -i ./src/request_review.mm && prettier --write index.js",
     "test": "./node_modules/.bin/mocha --reporter spec",
@@ -16,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enfp-dev-studio/node-mac-request-review"
+    "url": "https://github.com/enfp-dev-studio/node-mac-request-review"
   },
   "author": "ENFP-Dev-Studio",
   "license": "ISC",
@@ -26,7 +25,7 @@
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
     "mocha": "^10.2.0",
-    "node-gyp": "^9.3.0",
+    "prebuildify": "^5.0.1",
     "prettier": "^2.8.1"
   },
   "dependencies": {
