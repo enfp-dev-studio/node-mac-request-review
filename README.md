@@ -7,8 +7,7 @@ A Native module to show App Store review requesting UI. It tells StoreKit to ask
 </p>
 
 ### Note
-This API is wrapping [Storekit:requestReview](https://developer.apple.com/documentation/storekit/skstorereviewcontroller/2851536-requestreview).  
-I create this library for [Capture Note](https://capture-note.enfpdev.com).
+This library is a simple wrapper of [Storekit's requestReview](https://developer.apple.com/documentation/storekit/skstorereviewcontroller/2851536-requestreview). It was created for use in Electron apps. It is currently being used in my app, [Capture Note](https://capture-note.enfpdev.com).
 
 ### How To Install
 
