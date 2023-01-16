@@ -10,7 +10,8 @@ It tells StoreKit to ask the user to rate or review the app.
 </p>
 
 ### Note
-This library is a simple wrapper of [Storekit's requestReview](https://developer.apple.com/documentation/storekit/skstorereviewcontroller/2851536-requestreview). It was created for use in Electron apps. It is currently being used in my app, [Capture Note](https://capture-note.enfpdev.com).
+This library is a simple wrapper of [Storekit's requestReview](https://developer.apple.com/documentation/storekit/skstorereviewcontroller/2851536-requestreview).  
+It was created for use in Electron apps. It is currently being used in my app, [Capture Note](https://capture-note.enfpdev.com).
 
 ### How To Install
 
