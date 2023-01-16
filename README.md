@@ -2,10 +2,10 @@
 
 ![npm](https://img.shields.io/npm/dm/node-mac-request-review?style=flat-square)
 
+---
 ### Note
 A Native module to show App Store review requesting UI. This library is a simple wrapper of [Storekit's requestReview](https://developer.apple.com/documentation/storekit/skstorereviewcontroller/2851536-requestreview).  
 It was created for use in Electron apps. It is currently being used in my app, [Capture Note](https://capture-note.enfpdev.com).
----
 
 <p align="center">
   <img center width="532" alt="image" src="https://user-images.githubusercontent.com/57121116/209694268-af2d01c0-d6ef-4141-9e94-dd3b2453d0b2.png">
