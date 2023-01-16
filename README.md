@@ -27,4 +27,3 @@ import { requestReview } from "node-mac-request-review";
 requestReview();
 ```
 
-
