@@ -2,8 +2,11 @@
 
 ![npm](https://img.shields.io/npm/dm/node-mac-request-review?style=flat-square)
 
+<!-- Coffee fuels coding ☕️
+
+<a href="https://www.buymeacoffee.com/enfpdev" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+ -->
 A Native module to show App Store review requesting UI.  
-It tells StoreKit to ask the user to rate or review the app.  
 
 <p align="center">
   <img center width="532" alt="image" src="https://user-images.githubusercontent.com/57121116/209694268-af2d01c0-d6ef-4141-9e94-dd3b2453d0b2.png">
