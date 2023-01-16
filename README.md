@@ -1,5 +1,7 @@
 # node-mac-request-review
 
+![npm](https://img.shields.io/npm/dm/node-mac-request-review?style=flat-square)
+
 A Native module to show App Store review requesting UI.  
 It tells StoreKit to ask the user to rate or review the app.  
 
