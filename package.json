@@ -1,6 +1,6 @@
 {
   "name": "node-mac-request-review",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A Native module to request review on App Store using Store Kit",
   "main": "index.js",
   "types": "index.d.ts",
@@ -17,8 +17,8 @@
     "type": "git",
     "url": "https://github.com/enfp-dev-studio/node-mac-request-review"
   },
-  "author": "ENFP-Dev-Studio",
-  "license": "ISC",
+  "author": "enfp-dev-studio",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.3.7",
     "clang-format": "^1.8.0",
@@ -43,6 +43,15 @@
   },
   "os": [
     "darwin"
+  ],
+  "keywords": [
+    "electron",
+    "mas",
+    "appstore",
+    "macos",
+    "node",
+    "native",
+    "napi"
   ],
   "publishConfig": {
     "@enfpdev:registry": "https://npm.pkg.github.com"
