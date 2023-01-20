@@ -7,11 +7,10 @@
   "gypfile": true,
   "scripts": {
     "install": "node-gyp-build",
-    "prebuild": "prebuildify --napi",
+    "prebuild": "prebuildify --napi --arch x64+arm64",
     "lint": "clang-format --dry-run -Werror ./src/request_review.mm && prettier --check index.js",
     "format": "clang-format -i ./src/request_review.mm && prettier --write index.js",
-    "test": "./node_modules/.bin/mocha --reporter spec",
-    "prepare": "husky install"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,6 @@
   "devDependencies": {
     "chai": "^4.3.7",
     "clang-format": "^1.8.0",
-    "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
     "mocha": "^10.2.0",
     "prebuildify": "^5.0.1",
@@ -54,6 +52,6 @@
     "napi"
   ],
   "publishConfig": {
-    "@enfpdev:registry": "https://npm.pkg.github.com"
+    "@enfp-dev-studio:registry": "https://npm.pkg.github.com"
   }
 }
